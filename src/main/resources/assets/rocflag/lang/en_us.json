@@ -1,0 +1,12 @@
+{
+  "block.rocflag.top_left_block": "Top left",
+  "block.rocflag.top_middle": "Top middle",
+  "block.rocflag.top_right_block": "Top right",
+  "block.rocflag.bottom_left_block": "Bottom left",
+  "block.rocflag.bottom_middle_block": "Bottom middle",
+  "block.rocflag.bottom_right_block": "Bottom right",
+  "block.rocflag.roc_red_block": "ROC red",
+  "block.rocflag.roc_blue_block": "ROC blue",
+  "block.rocflag.roc_flag_block": "ROC flag",
+  "itemGroup.roc_flag_group": "Republic of China"
+}

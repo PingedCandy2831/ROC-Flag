@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "rocflag:block/roc_red_block" }
+  }
+}

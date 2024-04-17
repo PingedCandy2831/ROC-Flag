@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "roc-flag",
+	"version": "1.0.1",
+	"name": "ROC Flag",
+	"description": "這個模組用於搭建中華民國國旗，作者是位熱愛國家，熱愛民主自由的青年！",
+	"authors": [
+		"PingedCandy2831(即刻出发)"
+	],
+	"contact": {
+		"homepage": "https://github.com/PingedCandy2831/",
+		"sources": "https://github.com/PingedCandy2831/ROC-Flag"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rocflag/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.rocflag.ROCFlag"
+		],
+		"client": [
+			"com.rocflag.ROCFlagClient"
+		],
+		"fabric-datagen": [
+			"com.rocflag.ROCFlagDataGenerator"
+		]
+	},
+	"mixins": [
+		"rocflag.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R",
+    "WR"
+  ],
+  "key": {
+    "W": {
+      "item": "rocflag:roc_blue_block"
+    },
+    "R": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "rocflag:top_right_block",
+    "count": 1
+  }
+}

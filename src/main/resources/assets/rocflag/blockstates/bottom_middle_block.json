@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "rocflag:block/bottom_middle_block" },
+    "facing=east":  { "model": "rocflag:block/bottom_middle_block", "y": 90 },
+    "facing=south": { "model": "rocflag:block/bottom_middle_block", "y": 180 },
+    "facing=west":  { "model": "rocflag:block/bottom_middle_block", "y": 270 },
+    "facing=up": { "model": "rocflag:block/bottom_middle_block" },
+    "facing=down": { "model": "rocflag:block/bottom_middle_block" }
+  }
+}

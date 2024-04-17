@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RAB",
+    "AWB",
+    "BBB"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:honey_block"
+    },
+    "R": {
+      "item": "minecraft:white_dye"
+    },
+    "A": {
+      "item": "minecraft:blue_dye"
+    },
+    "B": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "rocflag:roc_flag_block",
+    "count": 1
+  }
+}
