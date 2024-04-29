@@ -23,7 +23,7 @@ public class ROCFlag implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
-		//ModItems.registerModItems();
+		ModItems.registerModItems();
 		ModItemGroup.registerModItemGroup();
 		ModBlocks.registerModBlocks();
 	}

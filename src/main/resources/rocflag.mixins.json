@@ -3,7 +3,12 @@
 	"package": "com.rocflag.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-      "ROCFlagMixin"
+      "ROCFlagMixin",
+		"PistonHandlerMixin",
+		"PistonBlockAccessor",
+		"PistonGetHeadBlockStateInvoker"
+
+
 	],
 	"injectors": {
 		"defaultRequire": 1
