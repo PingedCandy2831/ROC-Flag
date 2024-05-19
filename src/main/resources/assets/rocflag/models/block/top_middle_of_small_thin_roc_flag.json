@@ -1,0 +1,25 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"0": "rocflag:block/roc_red_block",
+		"3": "rocflag:block/top_middle_of_small_thin_roc_flag",
+		"4": "rocflag:block/top_middle_reverse_of_small_thin_roc_flag",
+		"5": "rocflag:block/top_middle_side_of_small_thin_roc_flag",
+		"6": "rocflag:block/roc_blue_block",
+		"particle": "rocflag:block/roc_red_block"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7],
+			"to": [16, 16, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#6"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 2], "texture": "#5"},
+				"down": {"uv": [0, 0, 16, 2], "texture": "#5"}
+			}
+		}
+	]
+}

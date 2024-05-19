@@ -28,10 +28,18 @@ public class ModItemGroup {
                         entries.add(ModBlocks.BOTTOM_RIGHT_BLOCK);
                         entries.add(ModBlocks.ROC_BLUE_BLOCK);
                         entries.add(ModBlocks.ROC_FLAG_BLOCK);
+                        entries.add(ModBlocks.TOP_LEFT_OF_SMALL_THIN_ROC_FLAG);
+                        entries.add(ModBlocks.TOP_MIDDLE_OF_SMALL_THIN_ROC_FLAG);
+                        entries.add(ModBlocks.THIN_ROC_RED);
+                        entries.add(ModBlocks.TOP_LEFT_OF_THIN_KUOMINTANG_FLAG);
+                        entries.add(ModBlocks.TOP_MIDDLE_OF_THIN_KUOMINTANG_FLAG);
+                        entries.add(ModBlocks.TOP_RIGHT_OF_THIN_KUOMINTANG_FLAG);
+                        entries.add(ModBlocks.BOTTOM_LEFT_OF_THIN_KUOMINTANG_FLAG);
+                        entries.add(ModBlocks.BOTTOM_MIDDLE_OF_THIN_KUOMINTANG_FLAG);
+                        entries.add(ModBlocks.BOTTOM_RIGHT_OF_THIN_KUOMINTANG_FLAG);
+                        entries.add(ModBlocks.KUOMINTANG_FLAG_BLOCK);
                     }).build());
     public static void registerModItemGroup() {
 
     }
 }
-
-

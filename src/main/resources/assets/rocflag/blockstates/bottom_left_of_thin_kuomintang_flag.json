@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "rocflag:block/bottom_left_of_thin_kuomintang_flag" },
+    "facing=east":  { "model": "rocflag:block/bottom_left_of_thin_kuomintang_flag", "y": 90 },
+    "facing=south": { "model": "rocflag:block/bottom_left_of_thin_kuomintang_flag", "y": 180 },
+    "facing=west":  { "model": "rocflag:block/bottom_left_of_thin_kuomintang_flag", "y": 270 },
+    "facing=up": { "model": "rocflag:block/bottom_left_of_thin_kuomintang_flag" },
+    "facing=down": { "model": "rocflag:block/bottom_left_of_thin_kuomintang_flag" }
+  }
+}

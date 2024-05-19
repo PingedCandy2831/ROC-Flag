@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"W"
+	],
+	"key": {
+		"W": {
+			"item": "rocflag:roc_red_block"
+		}
+
+	},
+	"result": {
+		"item": "rocflag:thin_roc_red",
+		"count": 4
+	}
+}

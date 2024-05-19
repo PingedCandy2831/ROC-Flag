@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"W"
+	],
+	"key": {
+		"W": {
+			"item": "rocflag:bottom_left_block"
+		}
+
+	},
+	"result": {
+		"item": "rocflag:bottom_left_of_thin_kuomintang_flag",
+		"count": 4
+	}
+}

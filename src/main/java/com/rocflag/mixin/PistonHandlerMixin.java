@@ -5,6 +5,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.piston.PistonHandler;
+import net.minecraft.registry.Registries;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -15,6 +16,9 @@ public class PistonHandlerMixin {
 
     @Inject(at = @At("HEAD"), method = "isBlockSticky", cancellable = true)
     private static void slimeology$isBlockStickyMixin(BlockState state, CallbackInfoReturnable<Boolean> cir) {
+        boolean isStateHoney = state.getBlock() == Blocks.HONEY_BLOCK;
+        boolean isAdjacentStateHoney = state.getBlock() == Blocks.HONEY_BLOCK;
+
         if (state.getBlock() == ModBlocks.BOTTOM_LEFT_BLOCK) {
             cir.setReturnValue(true);
         }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WR",
+    "A "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:honey_block"
+    },
+    "R": {
+      "item": "minecraft:blue_dye"
+    },
+    "A": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "rocflag:kuomintang_flag_block",
+    "count": 1
+  }
+}

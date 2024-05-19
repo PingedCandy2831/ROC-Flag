@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"facing=north": { "model": "rocflag:block/top_left_of_small_thin_roc_flag" },
+		"facing=east":  { "model": "rocflag:block/top_left_of_small_thin_roc_flag", "y": 90 },
+		"facing=south": { "model": "rocflag:block/top_left_of_small_thin_roc_flag", "y": 180 },
+		"facing=west":  { "model": "rocflag:block/top_left_of_small_thin_roc_flag", "y": 270 },
+		"facing=up": { "model": "rocflag:block/top_left_of_small_thin_roc_flag" },
+		"facing=down": { "model": "rocflag:block/top_left_of_small_thin_roc_flag" }
+	}
+}

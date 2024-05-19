@@ -2,7 +2,7 @@ package com.rocflag;
 
 import com.rocflag.block.ModBlocks;
 import com.rocflag.item.ModItemGroup;
-import com.rocflag.item.ModItems;
+//import com.rocflag.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -23,7 +23,7 @@ public class ROCFlag implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
-		ModItems.registerModItems();
+		//ModItems.registerModItems();
 		ModItemGroup.registerModItemGroup();
 		ModBlocks.registerModBlocks();
 	}

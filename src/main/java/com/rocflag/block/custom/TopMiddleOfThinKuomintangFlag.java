@@ -13,15 +13,17 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-public class BottomRightBlock extends HorizontalFacingBlock {
-    public BottomRightBlock(Settings settings){
+public class TopMiddleOfThinKuomintangFlag extends HorizontalFacingBlock {
+    public TopMiddleOfThinKuomintangFlag(Settings settings) {
         super(settings);
         setDefaultState(getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
+
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(Properties.HORIZONTAL_FACING);
     }
+
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
         Direction dir = state.get(FACING);
@@ -38,8 +40,10 @@ public class BottomRightBlock extends HorizontalFacingBlock {
                 return VoxelShapes.fullCube();
         }
     }
+
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         return super.getPlacementState(ctx).with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite());
     }
+
 }
