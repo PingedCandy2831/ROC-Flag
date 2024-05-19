@@ -19,25 +19,26 @@ public class ModItemGroup {
                     .displayName(Text.translatable("itemGroup.roc_flag_group"))
                     .icon(()-> new ItemStack(ModBlocks.ROC_FLAG_BLOCK))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.ROC_RED_BLOCK);
                         entries.add(ModBlocks.TOP_LEFT_BLOCK);
                         entries.add(ModBlocks.TOP_MIDDLE_BLOCK);
                         entries.add(ModBlocks.TOP_RIGHT_BLOCK);
                         entries.add(ModBlocks.BOTTOM_LEFT_BLOCK);
                         entries.add(ModBlocks.BOTTOM_MIDDLE_BLOCK);
                         entries.add(ModBlocks.BOTTOM_RIGHT_BLOCK);
-                        entries.add(ModBlocks.ROC_BLUE_BLOCK);
                         entries.add(ModBlocks.ROC_FLAG_BLOCK);
+                        entries.add(ModBlocks.KUOMINTANG_FLAG_BLOCK);
+                        entries.add(ModBlocks.ROC_BLUE_BLOCK);
+                        entries.add(ModBlocks.ROC_RED_BLOCK);
                         entries.add(ModBlocks.TOP_LEFT_OF_SMALL_THIN_ROC_FLAG);
                         entries.add(ModBlocks.TOP_MIDDLE_OF_SMALL_THIN_ROC_FLAG);
-                        entries.add(ModBlocks.THIN_ROC_RED);
                         entries.add(ModBlocks.TOP_LEFT_OF_THIN_KUOMINTANG_FLAG);
                         entries.add(ModBlocks.TOP_MIDDLE_OF_THIN_KUOMINTANG_FLAG);
                         entries.add(ModBlocks.TOP_RIGHT_OF_THIN_KUOMINTANG_FLAG);
                         entries.add(ModBlocks.BOTTOM_LEFT_OF_THIN_KUOMINTANG_FLAG);
                         entries.add(ModBlocks.BOTTOM_MIDDLE_OF_THIN_KUOMINTANG_FLAG);
                         entries.add(ModBlocks.BOTTOM_RIGHT_OF_THIN_KUOMINTANG_FLAG);
-                        entries.add(ModBlocks.KUOMINTANG_FLAG_BLOCK);
+                        entries.add(ModBlocks.THIN_ROC_BLUE);
+                        entries.add(ModBlocks.THIN_ROC_RED);
                     }).build());
     public static void registerModItemGroup() {
 

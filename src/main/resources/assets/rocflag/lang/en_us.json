@@ -1,15 +1,15 @@
 {
   "itemGroup.roc_flag_group": "Republic of China",
-  "block.rocflag.top_left_block": "Top left",
-  "block.rocflag.top_middle": "Top middle",
-  "block.rocflag.top_right_block": "Top right",
-  "block.rocflag.bottom_left_block": "Bottom left",
-  "block.rocflag.bottom_middle_block": "Bottom middle",
-  "block.rocflag.bottom_right_block": "Bottom right",
-  "block.rocflag.roc_red_block": "Republic of China red",
-  "block.rocflag.roc_blue_block": "Republic of China blue",
+  "block.rocflag.top_left_block": "Top left of kuomintang flag",
+  "block.rocflag.top_middle_block": "Top middle of kuomintang flag",
+  "block.rocflag.top_right_block": "Top right of kuomintang flag",
+  "block.rocflag.bottom_left_block": "Bottom left of kuomintang flag",
+  "block.rocflag.bottom_middle_block": "Bottom middle of kuomintang flag",
+  "block.rocflag.bottom_right_block": "Bottom right of kuomintang flag",
   "block.rocflag.roc_flag_block": "Republic of China flag",
-  "block.rocflag.thin_roc_red": "Thin Republic of China red",
+  "block.rocflag.kuomintang_flag_block": "Kuomintang flag block",
+  "block.rocflag.roc_blue_block": "Republic of China blue",
+  "block.rocflag.roc_red_block": "Republic of China red",
   "block.rocflag.top_left_of_small_thin_roc_flag": "Top left of small thin Republic of China flag",
   "block.rocflag.top_middle_of_small_thin_roc_flag": "Top middle of small thin Republic of China flag",
   "block.rocflag.top_left_of_thin_kuomintang_flag": "Top left of thin Kuomintang flag",
@@ -18,5 +18,7 @@
   "block.rocflag.bottom_left_of_thin_kuomintang_flag": "Bottom left of thin Kuomintang flag",
   "block.rocflag.bottom_middle_of_thin_kuomintang_flag": "Bottom middle of thin Kuomintang flag",
   "block.rocflag.bottom_right_of_thin_kuomintang_flag": "Bottom right of thin Kuomintang flag",
-  "block.rocflag.kuomintang_flag_block": "Kuomintang flag block"
+  "block.rocflag.thin_roc_blue": "Thin Republic of China blue",
+  "block.rocflag.thin_roc_red": "Thin Republic of China red"
+
 }

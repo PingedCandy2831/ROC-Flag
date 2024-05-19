@@ -1,15 +1,15 @@
 {
   "itemGroup.roc_flag_group": "中华民国",
-  "block.rocflag.top_left_block": "左上",
-  "block.rocflag.top_middle_block": "中上",
-  "block.rocflag.top_right_block": "右上",
-  "block.rocflag.bottom_left_block": "左下",
-  "block.rocflag.bottom_middle_block": "中下",
-  "block.rocflag.bottom_right_block": "右下",
-  "block.rocflag.roc_red_block": "中华民国红",
-  "block.rocflag.roc_blue_block": "中华民国蓝",
+  "block.rocflag.top_left_block": "国民党党旗左上",
+  "block.rocflag.top_middle_block": "国民党党旗中上",
+  "block.rocflag.top_right_block": "国民党党旗右上",
+  "block.rocflag.bottom_left_block": "国民党党旗左下",
+  "block.rocflag.bottom_middle_block": "国民党党旗中下",
+  "block.rocflag.bottom_right_block": "国民党党旗右下",
   "block.rocflag.roc_flag_block": "中华民国国旗方块",
-  "block.rocflag.thin_roc_red": "轻薄中华民国红",
+  "block.rocflag.kuomintang_flag_block": "国民党党旗方块",
+  "block.rocflag.roc_blue_block": "中华民国蓝",
+  "block.rocflag.roc_red_block": "中华民国红",
   "block.rocflag.top_left_of_small_thin_roc_flag": "轻薄中华民国国旗左上",
   "block.rocflag.top_middle_of_small_thin_roc_flag": "轻薄中华民国国旗中上",
   "block.rocflag.top_left_of_thin_kuomintang_flag": "轻薄国民党党旗左上",
@@ -18,5 +18,6 @@
   "block.rocflag.bottom_left_of_thin_kuomintang_flag": "轻薄国民党党旗左下",
   "block.rocflag.bottom_middle_of_thin_kuomintang_flag": "轻薄国民党党旗中下",
   "block.rocflag.bottom_right_of_thin_kuomintang_flag": "轻薄国民党党旗右下",
-  "block.rocflag.kuomintang_flag_block": "国民党党旗方块"
+  "block.rocflag.thin_roc_blue": "轻薄中华民国蓝",
+  "block.rocflag.thin_roc_red": "轻薄中华民国红"
 }

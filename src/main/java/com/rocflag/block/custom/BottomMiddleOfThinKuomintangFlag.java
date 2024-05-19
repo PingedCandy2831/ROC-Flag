@@ -12,6 +12,7 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
+import org.jetbrains.annotations.NotNull;
 
 public class BottomMiddleOfThinKuomintangFlag extends HorizontalFacingBlock {
     public BottomMiddleOfThinKuomintangFlag(Settings settings) {
@@ -25,22 +26,21 @@ public class BottomMiddleOfThinKuomintangFlag extends HorizontalFacingBlock {
     }
 
     @Override
-    public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
+    public VoxelShape getOutlineShape(@NotNull BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
         Direction dir = state.get(FACING);
-        switch (dir) {
+        switch(dir) {
             case NORTH:
-                return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
+                return VoxelShapes.cuboid(0.0f, 0.0f, 0.4375f, 1.0f, 1.0f, 0.5625f);
             case SOUTH:
-                return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
+                return VoxelShapes.cuboid(0.0f, 0.0f, 0.4375f, 1.0f, 1.0f, 0.5625f);
             case EAST:
-                return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
+                return VoxelShapes.cuboid(0.4375f, 0.0f, 0.0f, 0.5625f, 1.0f, 1.0f);
             case WEST:
-                return VoxelShapes.cuboid(0, 0, 0, 1, 1, 1);
+                return VoxelShapes.cuboid(0.4375f, 0.0f, 0.0f, 0.5625f, 1.0f, 1.0f);
             default:
                 return VoxelShapes.fullCube();
         }
     }
-
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         return super.getPlacementState(ctx).with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite());

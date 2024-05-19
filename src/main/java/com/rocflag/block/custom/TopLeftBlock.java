@@ -1,4 +1,4 @@
-package com.rocflag.block.custom;;
+package com.rocflag.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -13,18 +13,15 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 
-
 public class TopLeftBlock extends HorizontalFacingBlock {
-    public TopLeftBlock(Settings settings) {
+    public TopLeftBlock(Settings settings){
         super(settings);
         setDefaultState(getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }
-
     @Override
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(Properties.HORIZONTAL_FACING);
     }
-
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
         Direction dir = state.get(FACING);
@@ -41,10 +38,8 @@ public class TopLeftBlock extends HorizontalFacingBlock {
                 return VoxelShapes.fullCube();
         }
     }
-
     @Override
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         return super.getPlacementState(ctx).with(Properties.HORIZONTAL_FACING, ctx.getHorizontalPlayerFacing().getOpposite());
     }
-
 }

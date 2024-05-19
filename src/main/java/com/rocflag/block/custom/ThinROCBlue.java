@@ -14,8 +14,8 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.NotNull;
 
-public class ThinROCRed extends HorizontalFacingBlock {
-    public ThinROCRed(Settings settings){
+public class ThinROCBlue extends HorizontalFacingBlock {
+    public ThinROCBlue(Settings settings){
         super(settings);
         setDefaultState(getDefaultState().with(Properties.HORIZONTAL_FACING, Direction.NORTH));
     }

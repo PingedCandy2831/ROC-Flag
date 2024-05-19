@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W"
+  ],
+  "key": {
+    "W": {
+      "item": "rocflag:roc_blue_block"
+    }
+
+  },
+  "result": {
+    "item": "rocflag:thin_roc_blue",
+    "count": 4
+  }
+}

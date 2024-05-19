@@ -19,15 +19,6 @@ public class PistonHandlerMixin {
         boolean isStateHoney = state.getBlock() == Blocks.HONEY_BLOCK;
         boolean isAdjacentStateHoney = state.getBlock() == Blocks.HONEY_BLOCK;
 
-        if (state.getBlock() == ModBlocks.BOTTOM_LEFT_BLOCK) {
-            cir.setReturnValue(true);
-        }
-        if (state.getBlock() == ModBlocks.BOTTOM_MIDDLE_BLOCK) {
-            cir.setReturnValue(true);
-        }
-        if (state.getBlock() == ModBlocks.BOTTOM_RIGHT_BLOCK) {
-            cir.setReturnValue(true);
-        }
         if (state.getBlock() == ModBlocks.TOP_LEFT_BLOCK) {
             cir.setReturnValue(true);
         }
@@ -37,13 +28,55 @@ public class PistonHandlerMixin {
         if (state.getBlock() == ModBlocks.TOP_RIGHT_BLOCK) {
             cir.setReturnValue(true);
         }
-        if (state.getBlock() == ModBlocks.ROC_RED_BLOCK) {
+        if (state.getBlock() == ModBlocks.BOTTOM_LEFT_BLOCK) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.BOTTOM_MIDDLE_BLOCK) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.BOTTOM_RIGHT_BLOCK) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.ROC_FLAG_BLOCK) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.KUOMINTANG_FLAG_BLOCK) {
             cir.setReturnValue(true);
         }
         if (state.getBlock() == ModBlocks.ROC_BLUE_BLOCK) {
             cir.setReturnValue(true);
         }
-        if (state.getBlock() == ModBlocks.ROC_FLAG_BLOCK) {
+        if (state.getBlock() == ModBlocks.ROC_RED_BLOCK) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.TOP_LEFT_OF_SMALL_THIN_ROC_FLAG) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.TOP_MIDDLE_OF_SMALL_THIN_ROC_FLAG) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.TOP_LEFT_OF_THIN_KUOMINTANG_FLAG) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.TOP_MIDDLE_OF_THIN_KUOMINTANG_FLAG) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.TOP_RIGHT_OF_THIN_KUOMINTANG_FLAG) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.BOTTOM_LEFT_OF_THIN_KUOMINTANG_FLAG) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.BOTTOM_MIDDLE_OF_THIN_KUOMINTANG_FLAG) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.BOTTOM_RIGHT_OF_THIN_KUOMINTANG_FLAG) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.THIN_ROC_BLUE) {
+            cir.setReturnValue(true);
+        }
+        if (state.getBlock() == ModBlocks.THIN_ROC_RED) {
             cir.setReturnValue(true);
         }
     }
